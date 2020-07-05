@@ -1,0 +1,42 @@
+{
+    "name": "rut-chileno",
+    "version": "0.0.2",
+    "author": "Eddddddd",
+    "license": "ISC",
+    "keywords": [
+        "rut-chileno",
+        "rut",
+        "chile",
+        "validaor",
+        "run",
+        "identidad",
+        "cedula",
+        "wea",
+        "angular"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Edddddddd/rut-chileno.git"
+    },
+    "peerDependencies": {
+        "@angular/common": "^9.1.11",
+        "@angular/core": "^9.1.11"
+    },
+    "dependencies": {
+        "tslib": "^1.10.0"
+    },
+    "bugs": {
+        "url": "https://github.com/Edddddddd/rut-chileno/issues"
+    },
+    "homepage": "https://github.com/Edddddddd/rut-chileno#readme",
+    "main": "bundles/rut-chileno.umd.js",
+    "module": "fesm5/rut-chileno.js",
+    "es2015": "fesm2015/rut-chileno.js",
+    "esm5": "esm5/rut-chileno.js",
+    "esm2015": "esm2015/rut-chileno.js",
+    "fesm5": "fesm5/rut-chileno.js",
+    "fesm2015": "fesm2015/rut-chileno.js",
+    "typings": "rut-chileno.d.ts",
+    "metadata": "rut-chileno.metadata.json",
+    "sideEffects": false
+}
