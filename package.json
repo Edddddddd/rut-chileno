@@ -1,6 +1,6 @@
 {
     "name": "rut-chileno",
-    "version": "0.0.3",
+    "version": "0.0.1",
     "author": "Eddddddd",
     "license": "ISC",
     "keywords": [
@@ -37,6 +37,5 @@
     "fesm5": "fesm5/rut-chileno.js",
     "fesm2015": "fesm2015/rut-chileno.js",
     "typings": "rut-chileno.d.ts",
-    "metadata": "rut-chileno.metadata.json",
     "sideEffects": false
 }

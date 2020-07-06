@@ -54,7 +54,7 @@ con esto ya podras utilizarlo la libreria en tu componente html.
 En el html de tu componente puedes utilizar el siguiente tag "rut-chile":
 
 ```html
-<rut-chile [mode]="0" (rut_emiter)="getRut($event)"></rut-chile>
+<rut-chile [msjError]="El rut ingresado no es válido." [mode]="0" (rut_emiter)="getRut($event)"></rut-chile>
 ```
 La variable "mode" corresponde al formato en que sera utilizado el rut para esto puede devolver los siguiente formatos segun el valor que corresponda.
 
@@ -121,11 +121,9 @@ export class AppComponent {
     // - mode = 1 -> 18421555
     // - mode = 2 -> 18.421.555-1
     // - mode = 3 -> 18421555-1
-    // - mode = 4 -> devuelve solo el digito verificado
-    // Retorna lo siguiente : string | number | boolean
+    // - mode = 4 -> devuelve solo el digito verificado.
+    // Retorna lo siguiente : string | boolean
     // PERO actualmente solo retorna: string | boolean
-    // le puse que retornara un number pero nunca lo hace, 
-    // y olvide cambiarlo y me da paja la verdad hahahah
     //
     // En fin: retornara string solo cuando el rut sea valido
     // y sera el rut en el formato indicado segun el mode
