@@ -1,6 +1,6 @@
 # Rut Chileno
 
-Actualmente existen muchas librerias relacionadas con el rut chileno, todos cumplen cierto formas de trabajo que no siempre facilitan el desarrollo como uno lo necesita.
+Validacion, implementacion en input, formater en Angular de la Cedula de intentidad Chilena.
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.11.
 
